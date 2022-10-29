@@ -1,22 +1,17 @@
-import logo from './logo.svg';
+import { Button, ButtonBase } from '@mui/material'
 import './App.css';
+import FetchNews from './components/FetchNews';
+import FetchProducts from './components/FetchProducts';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Olá Mundo</h1>
+        <div style={{ padding: "2rem" }}>
+          <FetchProducts />
+        </div>
       </header>
     </div>
   );
