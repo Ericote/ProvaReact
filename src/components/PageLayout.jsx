@@ -36,8 +36,13 @@ export const EVPageLayout = () => {
             </ListItemButton>
           </ListItem>
           <ListItem>
-            <ListItemButton component="a" href="/noticia">
-              <ListItemText primary={"Noticia"}></ListItemText>
+            <ListItemButton component="a" href="/noticias">
+              <ListItemText primary={"Noticias"}></ListItemText>
+            </ListItemButton>
+          </ListItem>
+          <ListItem>
+            <ListItemButton component="a" href="/">
+              <ListItemText primary={"Lobby"}></ListItemText>
             </ListItemButton>
           </ListItem>
         </List>

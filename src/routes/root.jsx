@@ -9,13 +9,17 @@ import {
   import EVErrorPage from "../components/ErrorPage";
   import EVFetchNews from "../components/FetchNews";
   import { EVPageLayout } from "../components/PageLayout";
+  import {EVAlbuns} from "../components/Albuns";
+  import {EVLobby} from "../components/Lobby"
+  import { EVTimMaia } from "../components/EVTimMaia";
   
   const route = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<EVPageLayout />} errorElement={<EVErrorPage />}>
-        <Route path="sobre" element={<EVFetchNews />}></Route>
-        <Route path="albuns" element={<EVFetchNews />}></Route>
-        <Route path="noticia" element={<EVFetchNews />}></Route>
+         <Route index path="/" element={<EVLobby />}></Route>
+        <Route path="sobre" element={<EVTimMaia />}></Route>
+        <Route path="Albuns" element={<EVAlbuns />}></Route>
+        <Route path="noticias" element={<EVFetchNews />}></Route>
       </Route>
     )
   );
