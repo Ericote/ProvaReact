@@ -7,7 +7,7 @@ export const EVTimMaia = () => {
   return (
     <Container maxWidth="xs" style={{ textAlign: "justify", marginTop: "5%" }}>
       <Typography style={{ textAlign: "center" }} variant="h2">
-        Sobre o Tim Maia (Lixo)
+        Sobre o Big Tim Maia 
       </Typography>
       <Divider />
       <LoremIpsum p={3} />
